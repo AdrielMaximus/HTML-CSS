@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        p{
+            background-color: antiquewhite;
+        }
+        .olha{
+            background-color: red;
+        }
+        p:hover{
+            background-color: blueviolet;
+        }
+    </style> <!--Melhor maneira de usar CSS em UMA UNICA pagina-->
+    <link rel="stylesheet" href="stle.css"><!--Melhor maneira de usar CSS para varias paginas WEB. Recomendavel-->
+    <title>Revisao</title>
+</head>
+<body>
+    <h1>Titulo 1</h1>
+    <h5>5 hierarquia de titulo</h5>
+    <img src="" alt=""><!--Imagem-->
+    <abbr title=""></abbr><!--Abreviacao/descricao-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><!--Imagem do site-->
+    <ol></ol><!--Lista ordenada-->
+    <ul></ul><!--Lista nao ordenada-->
+    <li></li><!--Lista-->
+    <picture></picture><!--Imagem que muda de tamanho-->
+    <source media="(max-width: )" srcset="" type="image/"><!--Imagem de tamanho diferente-->
+    <link rel="stylesheet" href="stle.css"><!--Colocar cor pelo css-->
+    <p>Ola</p><!--Pior maneira de usar o css-->
+    <p>Paragrafo</p>
+    <p class="Olha">Class= configuracao de alguma parte especifica do site. Class usa . e pseudo class usa :
+        Ex: Hover
+        :dir() (en-US)
+        :disabled
+        :empty
+        :enabled
+    </p>
+    <p> O hover quer dizer que ao passar o mouse em cima acontecera algo.</p>
+    <p>div > p {display: none;} quer dizer que qualquer p que esteja dentro da div vai sumir</p>
+    <p>div:hover > p {display: block;} quer dizer que qualquer p que esteja dentro da div que sumiu vai aparecer quando o mouse passar por cima</p>
+    <!--
+        Box level pula uma linha por elemento. Ex: Div
+        Inline-level nao pula linha entre elementos
+        margin= espaco entre um elemento e outro
+        border=borda do elemento
+        outline= borda fora do elemento
+        padding= distancia entre um elemento e a borda
+        a {
+    color: darkred;
+    text-decoration: none; sem sublinhado nos links
+} estilizar os links
+a:visited link visitado fica roxo{
+    color: darkblue;
+}
+a:hover{
+    text-decoration: underline ao passar o mouse o link fica sublinhado;
+}
+a:active ao clicar{
+    color: yellow;
+}
+a::after algo acontece apos clicar{
+    content conteudo: [link];
+}
+::= pseudo elemento
+-->
+</body>
+</html>
