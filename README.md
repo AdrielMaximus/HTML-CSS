@@ -2,7 +2,7 @@
 <br>
 👉<a href="https://www.linkedin.com/in/adriel-maximus-920bab17b/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"></a> 👈
 
-![Adriel GitHub stats](https://github-readme-stats.vercel.app/api?username=AdrielMaximus&show_icons=true&theme=radical
+![Adriel GitHub stats](https://github-readme-stats.vercel.app/api?username=AdrielMaximus&show_icons=true&theme=radical) <br>
 [![Adriel](https://github-readme-stats.vercel.app/api/top-langs/?username=AdrielMaximus&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 ## tecnologias que uso diariamente
