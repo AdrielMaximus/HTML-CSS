@@ -8,17 +8,11 @@
         td{
             vertical-align: middle;
             text-align: center;
-            padding: 15px;
+            padding: 15px 30px;
         }
         table td{
             position: relative;
             border: 2px solid black;
-        }
-        thead tr th{
-            position: sticky;
-            top: -1px;
-            background-color: darkgrey;
-
         }
     </style>
     <title>Treino de tabelas</title>
@@ -26,27 +20,27 @@
 <body>
     <table>
         <tr>
-            <td>1</td>
-            <td>2</td>
-            <td rowspan="2">3</td>
-            <td>4</td>
+            <td colspan="4">A</td>
+            <td rowspan="5">B</td>
         </tr>
         <tr>
-            <td>5</td>
-            <td>6</td>
-            <td>7</td>
-            <td colspan="3">8</td>
+            <td rowspan="4">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+            <td>G</td>
         </tr>
         <tr>
-            <td>9</td>
-            <td rowspan="2">10</td>
-            <td colspan="2">11</td>
-            <td>12</td>
+            <td colspan="3">H</td>
+            <td>I</td>
         </tr>
         <tr>
-            <td>13</td>
-            <td>14</td>
-            <td>15</td>
+            <td rowspan="2">J</td>
+            <td colspan="2">L</td>
+            <td>M</td>
+        </tr>
+        <tr>
+            <td>N</td>
         </tr>
     </table>
 </body>
