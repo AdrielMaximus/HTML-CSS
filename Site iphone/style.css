@@ -37,6 +37,9 @@ iframe.Tela{
   width: 269px;
   height: 471px;
 }
-.redes-sociais{
-
+.redes-sociais img{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  
 }
