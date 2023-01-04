@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <p>
+            <label for="usuario">Usuario</label>
+            <input type="text" name="Usuario" id="usuario" required minlength="5" maxlength="15" autocomplete="off" placeholder="Nome de Usuario">
+        </p>
+        <p>
+            <label for="senha">Senha</label>
+            <input type="password" name="Senha" id="senha" required minlength="8" maxlength="20" size="22" placeholder="minimo 8 letras" autocomplete="off">
+        </p>
+        <p>
+            <label for="ano">Ano letivo</label>
+            <input type="date" name="Ano" id="ano"placeholder="Digite o periodo letivo" >
+        </p>
+        <p>
+            <label for="num">Numero</label>
+            <input type="number" name="Num" id="num" min="0" max="10" size="" autocomplete="off" placeholder="Digite um num de 0 a 10" step=".1">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
