@@ -54,7 +54,8 @@
         </p>
         <p>
             <label for="satis">Satisfação</label>
-            <input type="range" name="Satis" id="satis" min="0" max="10" step=".1">
+            <input type="range" name="Satis" id="satis" min="0" max="10" step=".1" oninput="ival.innerHTML = Number(satis.value)">
+            <output id="ival">5</output>
         </p>
         <fieldset>
             <p>
