@@ -62,6 +62,18 @@
                 <input type="file" name="Foto" id="foto">
             </p>
         </fieldset>
+        <p>
+            <label for="In1">Num1</label>
+            <input type="number" name="N1" id="In1" min="0" max="20" required oninput="isoma.innerHTML = Number(In1.value) + Number(In2.value)">
+        </p>
+        <p>
+            <label for="In2">Num2</label>
+            <input type="number" name="N2" id="In2" min="0" max="20" required oninput="isoma.innerHTML = Number(In1.value) + Number(In2.value)">
+        </p>
+        <p>
+            <label for="isoma">Soma:</label>
+            <output name="soma" id="isoma">0</output>
+        </p>
         <input type="submit" value="Cadastre-se">
         <p>
             <label for="msg">Mensagem:</label>
