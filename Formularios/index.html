@@ -29,11 +29,11 @@
         <p>
             <label for="prof">Profissão</label>
             <input type="text" name="Prof" id="prof" list="profi">
-            <datalist>
-                <option value="PRO">Professor</option>
-                <option value="ADM">Administração</option>
-                <option value="CONT">Contador</option>
-                <option value="PRO">Programador</option>
+            <datalist id="profi">
+                <option>Professor</option>
+                <option>Administração</option>
+                <option>Contador</option>
+                <option>Programador</option>
             </datalist>
         </p>
         <p>
@@ -63,6 +63,10 @@
             </p>
         </fieldset>
         <input type="submit" value="Cadastre-se">
+        <p>
+            <label for="msg">Mensagem:</label>
+            <textarea name="Msg" id="msg" cols="30" rows="10">Digite alguma sugestão.</textarea>
+        </p>
     </form>
 </body>
 </html>
