@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Cadastre-se aqui.</h1>
-    <form autocomplete="off" method="get">
+    <form autocomplete="off" method="post">
         <p><label for="nome">Nome:</label>
             <input type="text" name="Nome" id="nome">
         </p>
@@ -36,10 +36,12 @@
             <label for="satis">Satisfação</label>
             <input type="range" name="Satis" id="satis" min="0" max="10" step=".1">
         </p>
-        <p>
-            <label for="fot">Foto</label>
-            <input type="file" name="Foto" id="foto">
-        </p>
+        <fieldset>
+            <p>
+                <label for="fot">Foto</label>
+                <input type="file" name="Foto" id="foto">
+            </p>
+        </fieldset>
         <input type="submit" value="Cadastre-se">
     </form>
 </body>
