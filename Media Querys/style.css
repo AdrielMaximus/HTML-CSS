@@ -1,0 +1,31 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    width: 100vw;
+    height: 100vh;
+}
+h1, h2, ul{
+    text-shadow: 3px 3px 0px rgba(85, 84, 84, 0.322);
+}
+h2{
+    padding: 10px 10px 10px 0px;
+}
+
+@media screen and (orientation: landscape) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        background-color: brown;
+    }
+}
+@media screen and (orientation: portrait) {
+    *{
+        background-color: blue;
+    }
+}
