@@ -4,15 +4,27 @@
     margin: 0px;
     padding: 0px;
 }
+
 /*Impressora  */
 @media print{
     img.Phone, img.Tablet, img.Tv, img.Pc{
         display: none;
     }
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
     body{
         background-image: url(pacote-imagens-cap25/imagens/back-print.jpg);
+        
     }
-    img{
+    main{
+        border: 2px solid black;
+    }
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+    img.Print{
         display: block;
         margin: auto;
     }
