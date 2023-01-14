@@ -9,6 +9,9 @@
     img.Phone, img.Tablet, img.Tv, img.Pc{
         display: none;
     }
+    body{
+        background-image: url(pacote-imagens-cap25/imagens/back-print.jpg);
+    }
     img{
         display: block;
         margin: auto;
@@ -23,7 +26,7 @@
     img.Phone, img.Print, img.Tv, img.Pc{
         display: none;
     }
-    img{
+    img.Tablet{
         display: block;
         margin: auto;
     }
@@ -34,7 +37,10 @@
     img.Phone, img.Print, img.Tv, img.Tablet{
         display: none;
     }
-    img{
+    body{
+        background-image: url(pacote-imagens-cap25/imagens/back-pc.jpg);
+    }
+    img.Pc{
         display: block;
         margin: auto;
     }
@@ -45,7 +51,10 @@
     img.Phone, img.Print, img.Tablet, img.Pc{
         display: none;
     }
-    img{
+    body{
+        background-image: url(pacote-imagens-cap25/imagens/back-tv.jpg);
+    }
+    img.Tv{
         display: block;
         margin: auto;
     }
