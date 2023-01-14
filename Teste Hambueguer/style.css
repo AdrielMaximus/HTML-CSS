@@ -27,7 +27,7 @@ header h1{
     color: black;
 }
 menu{
-    display: block;
+    display: none;
 }
 menu ul{
     list-style-type: none;

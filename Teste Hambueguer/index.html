@@ -11,8 +11,8 @@
 <body>
     <header>
         <h1>Meu Site</h1>
-        <span class="material-icons" id="Menu">menu</span>
-        <menu>
+        <span class="material-icons" id="Menu" onclick="clickMenu()">menu</span>
+        <menu id="itens">
             <ul>
                 <li><a href="a">Opcao 1</a></li>
                 <li><a href="a">Opcao 2</a></li>
@@ -30,5 +30,10 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod deleniti eligendi dolor, modi quia corrupti animi totam sapiente earum recusandae voluptates corporis aliquam quisquam alias laborum suscipit quo cum.</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            itens.style.display = 'block'
+        }
+    </script>
 </body>
 </html>
