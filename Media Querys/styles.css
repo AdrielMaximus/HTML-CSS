@@ -1,8 +1,8 @@
 @charset "UTF-8";
+/*Media Querys*/
 *{
     margin: 0px;
     padding: 0px;
-    color: white;
 }
 @media print{
     
