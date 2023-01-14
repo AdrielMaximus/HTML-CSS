@@ -2,3 +2,19 @@
 body, html{
     background-color: darkgray;
 }
+header{
+    background-color: gray;
+}
+header h1{
+    text-align: center;
+    padding: 10px;
+}
+menu{
+    display: block;
+}
+menu ul{
+    list-style-type: none;
+}
+menu a{
+    
+}
