@@ -12,9 +12,9 @@
     min-height: 400px;
     margin-inline: auto;
     border: 1px solid rgba(0, 0, 0, 0.623);
+    /*
     display: flex;
     gap: 1rem;
-    /*
     justify-content: flex-start;
     justify-content: flex-end;
     justify-content: space-around;
@@ -25,6 +25,8 @@
     align-items: flex-end;
     flex-direction: column ;
     flex-wrap: wrap;
+    ou
+    flex-flow: row wrap;
     */
 
  }
