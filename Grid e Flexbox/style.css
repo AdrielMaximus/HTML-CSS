@@ -12,6 +12,18 @@
     min-height: 400px;
     margin-inline: auto;
     border: 1px solid rgba(0, 0, 0, 0.623);
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    align-items: flex-start;
+    align-items: flex-end;
+    */
+
  }
  .box{
     min-width: 100px;
